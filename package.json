@@ -15,10 +15,10 @@
   "licenses": "MIT",
   "main": "lib/folderify",
   "engines": {
-    "node": ">= 0.10.0"
+    "node": ">= 10.0.0"
   },
   "scripts": {
-    "test": "node test/folderify_test.js"
+    "test": "standard && node test/folderify_test.js"
   },
   "standard": {
   "ignore": [
