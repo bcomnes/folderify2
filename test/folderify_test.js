@@ -31,7 +31,7 @@ test('folderify exports a function', function (t) {
 });
 
 test('return a through stream', function (t) {
-  expect(folderify().constructor.name).to.be.equal('Stream');
+  expect(folderify('').constructor.name).to.be.equal('Stream');
   t.end();
 });
 
