@@ -1,7 +1,7 @@
 {
   "name": "folderify2",
   "description": "Expose the content of each file in a folder as an object property.",
-  "version": "1.2.1",
+  "version": "2.0.0",
   "homepage": "https://github.com/bcomnes/folderify2",
   "license": "MIT",
   "author": {
@@ -24,9 +24,9 @@
     "test": "standard && node test/folderify_test.js"
   },
   "standard": {
-  "ignore": [
-    "test/fixtures/** ",
-    "example/**"
+    "ignore": [
+      "test/fixtures/** ",
+      "example/**"
     ]
   },
   "devDependencies": {
