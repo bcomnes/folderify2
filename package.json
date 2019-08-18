@@ -27,7 +27,7 @@
     ]
   },
   "devDependencies": {
-    "browserify": "^11.0.0",
+    "browserify": "^16.0.0",
     "expect.js": "^0.3.1",
     "tape": "^4.4.0"
   },
@@ -42,7 +42,7 @@
     "browserify-transform"
   ],
   "dependencies": {
-    "brfs": "~1.0.2",
+    "brfs": "^2.0.0",
     "concat-stream": "^2.0.0",
     "falafel": "^2.0.0",
     "include-folder": "^1.0.0",
