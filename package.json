@@ -1,17 +1,20 @@
 {
-  "name": "folderify",
+  "name": "folderify2",
   "description": "Expose the content of each file in a folder as an object property.",
   "version": "1.2.1",
-  "homepage": "https://github.com/parro-it/folderify",
+  "homepage": "https://github.com/bcomnes/folderify2",
   "license": "MIT",
   "author": {
     "name": "Andrea Parodi",
     "email": "andrea@parro.it"
   },
+  "contributors": [
+    "Bret Comnes <bcomnes@gmail.com> (https://bret.io)"
+  ],
   "eslintConfig": {
     "extends": "eslint-config-semistandard"
   },
-  "repository": "parro-it/folderify.git",
+  "repository": "bcomnes/folderify2.git",
   "licenses": "MIT",
   "main": "lib/folderify",
   "engines": {
